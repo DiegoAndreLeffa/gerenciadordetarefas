@@ -2,7 +2,8 @@
 using GerenciadorDeTarefas.App.Services;
 
 // Instancia o serviço que contém toda a lógica de negócio.
-TarefaService servico = new TarefaService();
+ITarefaRepository repositorio = new TarefaRepository();
+TarefaService servico = new TarefaService(repositorio);
 bool executando = true;
 
 // Loop principal do menu da aplicação.

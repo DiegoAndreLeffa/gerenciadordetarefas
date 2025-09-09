@@ -6,7 +6,7 @@ namespace GerenciadorDeTarefas.App.Repositories
     /// <summary>
     /// Repositório para gerenciar a persistência das tarefas em um arquivo JSON.
     /// </summary>
-    public class TarefaRepository
+    public class TarefaRepository: ITarefaRepository 
     {
         // Caminho do arquivo JSON onde as tarefas serão armazenadas.
         private readonly string _caminhoArquivo;
