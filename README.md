@@ -76,4 +76,4 @@ dotnet test
 
 ## 📝 Autor
 
-* **Diego** - [Seu GitHub](https://github.com/DiegoAndreLeffa)
+* **Diego** 
