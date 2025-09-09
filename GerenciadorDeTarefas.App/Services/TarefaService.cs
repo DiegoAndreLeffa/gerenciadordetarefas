@@ -11,9 +11,9 @@ namespace GerenciadorDeTarefas.App.Services
         private readonly TarefaRepository _repositorio;
         private List<Tarefa> _tarefas;
 
-        public TarefaService()
+        public TarefaService(ITarefaRepository repositorio)
         {
-            _repositorio = new TarefaRepository();
+            _repositorio = repositorio;
             // Carrega as tarefas do repositório ao iniciar o serviço.
             _tarefas = _repositorio.ObterTodas();
         }
