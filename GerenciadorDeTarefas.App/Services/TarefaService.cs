@@ -8,7 +8,7 @@ namespace GerenciadorDeTarefas.App.Services
     /// </summary>
     public class TarefaService
     {
-        private readonly TarefaRepository _repositorio;
+        private readonly ITarefaRepository _repositorio;
         private List<Tarefa> _tarefas;
 
         public TarefaService(ITarefaRepository repositorio)
