@@ -1,5 +1,6 @@
 ﻿using GerenciadorDeTarefas.App.Models;
 using GerenciadorDeTarefas.App.Services;
+using GerenciadorDeTarefas.App.Repositories; 
 
 // Instancia o serviço que contém toda a lógica de negócio.
 ITarefaRepository repositorio = new TarefaRepository();
